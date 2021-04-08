@@ -53,7 +53,39 @@ body{
     background-size: 100% 100%;
 }
 .title-sc1{
-    margin: 60px 0;
+    margin: 60px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    font-weight: bold;
+}
+.fs-sc1{
+    display: flex;
+    text-align: center;
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    width: 320px;
+}
+.btn-act-on{
+    background:red;
+    width: 160px;
+    height: 50px;
+
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 3px;
+    
+}
+.ftr-sc1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .title-sc2{
     margin: 60px 0 30px 0;
@@ -235,4 +267,35 @@ ul{
     color:white;
     font-weight: bold;
     letter-spacing: 5px;
+}
+.ftr-sct5{
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background:#1d242a ;
+
+    
+}
+.lgs-ftr{
+    display: flex;
+    justify-content: center;
+}
+
+.rs-ftr{
+    
+    margin-right: 40px;
+    height: 40px;
+}
+.sp-ftr{
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 40px;
 }
